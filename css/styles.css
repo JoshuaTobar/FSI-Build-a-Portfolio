@@ -1,0 +1,24 @@
+body {
+    background-color:teal;
+    cursor: crosshair;
+}
+
+img {
+    border-radius:10px;
+}
+
+.center {
+    text-align:center;
+}
+
+.header {
+    background-image: url("../images/coding-portfolio.jpeg");
+    height: 150px;
+
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 30px;
+    text-shadow:0px 3px black;
+
+}
+

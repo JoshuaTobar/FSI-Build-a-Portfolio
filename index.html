@@ -5,33 +5,69 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>My Portfolio</title>
-</head>
+    <link rel="stylesheet" href="./css/styles.css"
+  </head>
 
 <body>
-    <H1>
-        My Portfolio
-    </H1>
-    <!-- 
-      Directions:
-        1. Create a DIV element to contain the page content
-        2. Inside your DIV, create an H1 tag that contains your name as the text
-        3. Below your H1 tag, create an H2 tag that contains the content text "Software Developer"
-        4. Below your H2 tag, create an HR tag which will make a horizontal line
-        5. Create a paragraph tag and put a sentence of your choice in it. (Suggestion: "My favorite thing about programming is _______")
-        6. Make the word "favorite" italicized
-        7. Make an image tag with the src attribute linked to a picture of yourself or of a placeholder image. Make sure you make an alt attribute too!
-        8. Create an H3 tag that says "About Me"
-        9. Create a paragraph tag that contains the "lorem ipsum" text. You will need to do a search for this text - it is long!
-        10. Create an H3 tag that says "My Projects"
-        11. Create an unordered list with 3 list items that say "Project 1", "Project 2", and "Project 3"
-        12. Add another H3 that contains "Contact Me" as text
-        13. Create a paragraph that contains a fake phone number, e.g., "Phone: (202) 555-1234"
-        14. Create a link tag (<a>) with a direction to mail to a fake email address. This is done by making a regular link, but in the href attribute, put mailto:fake@email.com (this opens up your email program with the TO field already filled out-try it!)
-
-        BONUS: Try one of the following ideas if you finish early
-          - Switch out your lorem ipsum for Hipster Ipsum (https://hipsum.co/)
-          - In your contact me section, make the text "Phone:" and "Email:" bolded
-     -->
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>repl.it</title>
+      
+    </head>
+    <body>
+      <!-- 
+        Directions:
+          1. Create a DIV element to contain the page content
+          2. Inside your DIV, create an H1 tag that contains your name as the text
+          3. Below your H1 tag, create an H2 tag that contains the content text "Software Developer"
+          4. Below your H2 tag, create an HR tag which will make a horizontal line
+          5. Create a paragraph tag and put a sentence of your choice in it. (Suggestion: "My favorite thing about programming is _______")
+          6. Make the word "favorite" italicized
+          7. Make an image tag with the src attribute linked to a picture of yourself or of a placeholder image. Make sure you make an alt attribute too!
+          8. Create an H3 tag that says "About Me"
+          9. Create a paragraph tag that contains the "lorem ipsum" text. You will need to do a search for this text - it is long!
+          10. Create an H3 tag that says "My Projects"
+          11. Create an unordered list with 3 list items that say "Project 1", "Project 2", and "Project 3"
+          12. Add another H3 that contains "Contact Me" as text
+          13. Create a paragraph that contains a fake phone number, e.g., "Phone: (202) 555-1234"
+          14. Create a link tag (<a>) with a direction to mail to a fake email address. This is done by making a regular link, but in the href attribute, put mailto:fake@email.com (this opens up your email program with the TO field already filled out-try it!)
+  
+          BONUS: Try one of the following ideas if you finish early
+            - Switch out your lorem ipsum for Hipster Ipsum (https://hipsum.co/)
+            - In your contact me section, make the text "Phone:" and "Email:" bolded
+       -->
+  
+  
+       <div>
+         <div class="header">
+           <h1 class="center">Joshua Tobar</h1>
+           <h2 class="center">Software Developer, Artist</h2>
+           </div>
+           <hr>
+  
+           <p>My <i>favorite</i> thing about programming is teaching computers how to do cool things</p>
+  
+           <img alt="Picture of Joshua Tobar" src="data:image/jpeg;base64,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" />
+           <h3>About Me</h3>
+           <p>I live in Long Beach, CA! My hometown will always be Anaheim. 
+               I originally wanted to do coding right out of high school, but when I started taking a course, I immediately felt intimidated. Now I'm back at it and feel that I'm finally ready to achieve my goal that I started oh so long ago. When I'm not learning to code, I'm hanging out at home with my fiance and cat. If I'm lucky, I'll get a day to myself and I'll draw. I also go by echoesfallout online.
+           </p>
+           <hr>
+           <h3>My Projects</h3>
+           <ul>
+               <li>Project 1</li>
+               <li>Project 2</li>
+               <li>Project 3</li>
+           </ul>
+           <h3>Contact Me</h3>
+           <p><b>Phone Number: </b>123/456-7890</p>
+           <p><b><a href="mailto:echoesfallout@gmail.com">Email</a></b></p>
+       </div>
+    </body>
+  </html>
 </body>
 
 </html>
